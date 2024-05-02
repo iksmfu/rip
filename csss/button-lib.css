@@ -1,0 +1,78 @@
+/* u ok there buddy? */
+
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #822a76;
+  color: #fff;
+  line-height: 1;
+  position:fixed;
+  top:330px;
+  right:260px;
+}
+
+.btn2 {
+
+  padding: 1em 2em;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #822a76;
+  color: #fff;
+  line-height: 1;
+  position:fixed;
+  top:330px;
+  right:350px;
+}
+
+.btn--gradient {
+  background-color: #e82d6b;
+  background-image: linear-gradient(to right, #21D4FD calc(50% - 100px), #B721FF calc(50% + 100px));
+}
+
+.btn--gradient2 {
+  background-color: #e82d6b;
+  background-image: linear-gradient(to left, #21D4FD calc(50% - 100px), #B721FF calc(50% + 100px));
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 25em center;
+}
+
+@media (min-height: 440px) {
+  html,
+body,
+.container {
+    height: 100%;
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: radial-gradient(farthest-corner at center, 20%, #ccc);
+}
+
+.container a {
+  margin-bottom: -16.5em;
+}
+
+.description {
+  max-width: 25em;
+  text-align: center;
+}
+
+.ct {
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left: 32%;
+  color: #fefefe;
+}

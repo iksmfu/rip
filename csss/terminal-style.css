@@ -1,0 +1,65 @@
+.mac-os-terminal-prompt {
+    border-radius: 0.6em;
+    height: 23em;
+    width: 43em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+.mac-os-dark {
+    color: #cacaca;
+    background-color: #000000;
+    border: 1.5px solid #dadada;
+    border-radius: 7px;
+    position: fixed;
+    top: 20%;
+    left: 32%;
+}
+
+.mac-os-title {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
+
+.mac-os-dark .mac-os-title {
+    color: #fefefe;
+    background-color: #000000;
+    border-bottom: solid 1px black;
+}
+
+.mac-os-buttons::before {
+    content: '';
+    transform: translate(0.7em, -1.2em);
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+    background: #fe5955;
+    -webkit-box-shadow: 1.4em 0 0 #eabf22, 2.8em 0 0 #4fc12d;
+            box-shadow: 1.4em 0 0 #eabf22, 2.8em 0 0 #4fc12d;
+}
+
+.mac-os-content {
+    list-style: none;
+    transform: translateY(-5.5em);
+    padding: 0;
+    margin: 0 0 0 1em;
+}
+
+.mac-os-content .input::before {
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 0.3em;
+}
+
+.mac-os-content .output::before {
+    content: '';
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 0.85em;
+}
