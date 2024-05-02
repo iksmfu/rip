@@ -5,7 +5,7 @@ let command_list = [
     ' > hos',
     ' > niggers',
     'Member links: (this is not a command)',
-    ' > iksm'
+    ' > iksm',
     ' > miche'
 ];
 function runApp_errorMsg(_0x5d3707) {
