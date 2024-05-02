@@ -1,4 +1,5 @@
 let command_list = [
+let command_list = [
     'Normal commands: (this is not a command)',
     ' > members',
     ' > contact',
@@ -39,7 +40,7 @@ function runApp_arrows(_0x358f15) {
 function runApp_help() {
     newln = 0;
     $('#console').html('');
-    Typer.write('MommyDestroyer50: command list');
+    Typer.write('cmds: command list');
     let _0x324a5c = command_list.length;
     for (let _0x26db9f = 0; _0x26db9f < _0x324a5c; _0x26db9f++) {
         Typer.newLine();
@@ -75,8 +76,9 @@ function racism() {
 
 function members() {
     var _0xf0e5a9 = 0;
-    Typer.write('> iksm');
-    Typer.write('> miche')
+    Typer.write('Hoodnigga Members Aka Very Harmless Niggers');
+    Typer.newLine();
+    Typer.write('> sen')
 }
 
 function contact() {
@@ -84,13 +86,13 @@ function contact() {
     Typer.write('Discord: @iksm');
 }
 
-function iksm() {
+
+function sen() {
     var _0x42fd2f = 'https://iksm.wtf/iksm';
     window.location.href = _0x42fd2f;
 }
-
-function miche() {
-    var _0x42fd2f = 'https://iksm.wtf/miche'
+function xhvw() {
+    var _0x42fd2f = 'https://iksm.wtf/miche';
     window.location.href = _0x42fd2f;
 }
 
