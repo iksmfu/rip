@@ -90,7 +90,7 @@ function iksm() {
 }
 
 function miche() {
-    var _0x42fd2f = 'https://iksm.wtf/miche';
+    var _0x42fd2f = 'https://iksm.wtf/miche'
     window.location.href = _0x42fd2f;
 }
 
