@@ -6,7 +6,10 @@ let command_list = [
     ' > niggers',
     'Member links: (this is not a command)',
     ' > iksm',
-    ' > miche'
+    ' > iksmm',
+    ' > ltcsteal',
+    ' > unkown',
+    ' > unkown'
 ];
 function runApp_errorMsg(_0x5d3707) {
     Typer.newLine();
@@ -39,7 +42,7 @@ function runApp_arrows(_0x358f15) {
 function runApp_help() {
     newln = 0;
     $('#console').html('');
-    Typer.write('MommyDestroyer50: command list');
+    Typer.write('iksm.wtf: command list');
     let _0x324a5c = command_list.length;
     for (let _0x26db9f = 0; _0x26db9f < _0x324a5c; _0x26db9f++) {
         Typer.newLine();
@@ -75,11 +78,17 @@ function racism() {
 
 function members() {
     var _0xf0e5a9 = 0;
-    Typer.write('unknown');
+    Typer.write('Members');
     Typer.newLine();
     Typer.write('> iksm');
     Typer.newLine();
-    Typer.write('> miche')
+    Typer.write('> iksmm');
+    Typer.newLine();
+    Typer.write('> ltcsteal');
+    Typer.newLine();
+    Typer.write('> soon')
+    Typer.newLine();
+    Typer.write('> soon')
 }
 
 function contact() {
@@ -88,14 +97,41 @@ function contact() {
 }
 
 
-function sen() {
-    var _0x42fd2f = 'https://iksm.wtf/iksm';
-    window.location.href = _0x42fd2f;
-}
-function xhvw() {
+function iksm() {
     var _0x42fd2f = 'https://iksm.wtf/miche';
     window.location.href = _0x42fd2f;
+}
+function iksmm() {
+    var _0x42fd2f = 'https://iksm.wtf/miche';
+    window.location.href = _0x42fd2f;
+}
+function michel() {
+    var _0x42fd2f = 'https://iksm.wtf/miche.html';
+    window.location.href = _0x42fd2f;
+}
+function ltcs() {
+    var _0x42fd2f = 'https://iksm.wtf/zmap.html';
+    window.location.href = _0x42fd2f;
+}
 
+function ltcsteal() {
+    var _0x42fd2f = 'https://iksm.wtf/hos.html';
+    window.location.href = _0x42fd2f;
+}
+
+function duxi0r() {
+    var _0x42fd2f = 'https://iksm.wtf/duxi0r.html';
+    window.location.href = _0x42fd2f;
+}
+
+function akmd() {
+    var _0x42fd2f = 'https://iksm.wtf/akmd.html';
+    window.location.href = _0x42fd2f;
+}
+
+function vice() {
+    var _0x42fd2f = 'https://iksm.wtf/vice.html';
+    window.location.href = _0x42fd2f;
 }
 
 function runApp_clear() {
