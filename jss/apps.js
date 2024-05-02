@@ -6,6 +6,7 @@ let command_list = [
     ' > niggers',
     'Member links: (this is not a command)',
     ' > iksm'
+    ' > miche'
 ];
 function runApp_errorMsg(_0x5d3707) {
     Typer.newLine();
@@ -74,7 +75,8 @@ function racism() {
 
 function members() {
     var _0xf0e5a9 = 0;
-    Typer.write('> iksm')
+    Typer.write('> iksm');
+    Typer.write('> miche')
 }
 
 function contact() {
@@ -84,6 +86,11 @@ function contact() {
 
 function iksm() {
     var _0x42fd2f = 'https://iksm.wtf/iksm';
+    window.location.href = _0x42fd2f;
+}
+
+function miche() {
+    var _0x42fd2f = 'https://iksm.wtf/miche';
     window.location.href = _0x42fd2f;
 }
 
