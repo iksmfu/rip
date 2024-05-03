@@ -1,55 +1,85 @@
-<html><head>
-<title>iksm.wtf - Terminal
-    </title>
-<style>
-    .titties2 {color: #fff; font-size: 40px; text-align: center; position: relative; top: 70px;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iksm.wtf - Terminal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .terminal {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .prompt {
+            color: green;
+        }
+
+        #command {
+            color: #fff;
+        }
+
+        #command::placeholder {
+            color: #fff;
+            opacity: 0.5; /* Adjust the opacity as needed */
+        }
     </style>
-<script type="text/javascript" src="jss/jquery.min.js">
-    </script>
-<script type="text/javascript" src="jss/script.js">
-    </script>
-<script type="text/javascript" src="jss/apps.js">
-    </script>
-<script type="text/javascript" src="jss/app_execute.js">
-    </script>
-<link rel="stylesheet" type="text/css" href="csss/terminal-style.css">
-<link rel="stylesheet" type="text/css" href="csss/terminal-console.css">
-<link rel="stylesheet" type="text/css" href="csss/button-lib.css">
 </head>
 <body>
+    <div class="terminal" id="terminal">
+        <div class="output" id="output">
+            <div>Welcome to iksm.wtf</div>
+            <div>For help, type 'help' next to the $</div>
+        </div>
+        <div class="input" id="input">
+            <span class="prompt">iksm.wtf $</span> <span id="command" contenteditable="true" placeholder="Type here..."></span>
+        </div>
+    </div>
 
-    
+    <script>
+        document.getElementById("command").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                let command = document.getElementById("command").innerText.trim();
+                if (command !== "") {
+                    let output = document.getElementById("output");
+                    let newCommand = document.createElement("div");
+                    newCommand.textContent = "iksm.wtf $" + command;
+                    output.appendChild(newCommand);
+                    // Handle command execution here
+                    handleCommand(command);
+                    // Clear the command area
+                    document.getElementById("command").innerText = "";
+                }
+            }
+        });
 
-    <video autoplay="" muted="" loop="" id="myVideo">
-        <source src="media/chief.mp4" type="video/mp4">
-    </video>
-
-    <audio id="background-music" autoplay="" loop="">
-        <source src="media/chief_music.mp3" type="audio/mpeg">
-    
-    </audio>
-
-
-<div class="mac-os-terminal-prompt mac-os-dark">
-<div class="mac-os-title">iksm.wtf - Terminal
-</div>
-
-<div id="console">
-</div>
-<script>onload();
-
-        </script>
-
-
-</ul></div>
-
-
-
-<script src="jss/script_1.js"></script>
-
-
-
-
-<script>
-
-</script></body></html>
+        function handleCommand(command) {
+            if (command.toLowerCase() === "help") {
+                // Respond with the specified list
+                let helpList = ["iksm", "miche", "test", "test1", "test2"];
+                let output = document.getElementById("output");
+                helpList.forEach(function(item) {
+                    let response = document.createElement("div");
+                    response.textContent = item;
+                    output.appendChild(response);
+                });
+            } else {
+                // Redirect to the specified URL
+                window.location.href = "https://iksm.wtf/" + encodeURIComponent(command);
+            }
+        }
+    </script>
+</body>
+</html>
