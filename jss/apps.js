@@ -62,15 +62,15 @@ function racism() {
         window.location.href = _0x4e2cb1;
     } else {
         var _0xe83d35 = 0;
-        Typer.write('Woah, hold up buddy what did you just say there?');
+        Typer.write('no cursing');
         Typer.newLine();
-        Typer.write('Due to the nature of the racism on your end.');
+        Typer.write('no swearing');
         Typer.newLine();
-        Typer.write('You have been logged and your information is being sent,');
+        Typer.write('error');
         Typer.newLine();
-        Typer.write('to the appropriate justice department, if this occurs again.');
+        Typer.write('.');
         Typer.newLine();
-        Typer.write('> Do it one more time watch what happens! <');
+        Typer.write('> <');
     }
 }
 
@@ -110,27 +110,27 @@ function michel() {
     window.location.href = _0x42fd2f;
 }
 function ltcs() {
-    var _0x42fd2f = 'https://iksm.wtf/zmap.html';
+    var _0x42fd2f = 'https://iksm.wtf/1.html';
     window.location.href = _0x42fd2f;
 }
 
 function ltcsteal() {
-    var _0x42fd2f = 'https://iksm.wtf/hos.html';
+    var _0x42fd2f = 'https://iksm.wtf/2.html';
     window.location.href = _0x42fd2f;
 }
 
-function duxi0r() {
-    var _0x42fd2f = 'https://iksm.wtf/duxi0r.html';
+function 3() {
+    var _0x42fd2f = 'https://iksm.wtf/3.html';
     window.location.href = _0x42fd2f;
 }
 
-function akmd() {
-    var _0x42fd2f = 'https://iksm.wtf/akmd.html';
+function 4() {
+    var _0x42fd2f = 'https://iksm.wtf/4.html';
     window.location.href = _0x42fd2f;
 }
 
-function vice() {
-    var _0x42fd2f = 'https://iksm.wtf/vice.html';
+function 5() {
+    var _0x42fd2f = 'https://iksm.wtf/5.html';
     window.location.href = _0x42fd2f;
 }
 
